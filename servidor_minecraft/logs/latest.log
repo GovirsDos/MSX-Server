@@ -1,0 +1,299 @@
+[05:33:47] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[05:33:48] [main/INFO]: Loading 131 mods:
+	- appleskin 2.5.1+mc1.20
+	   \-- cloth-config 11.0.99
+	        \-- cloth-basic-math 0.6.1
+	- balm-fabric 7.3.9
+	   \-- kuma_api 20.1.8
+	- bettervillage 3.2.0
+	- c2me 0.2.0+alpha.11.13
+	   |-- c2me-base 0.2.0+alpha.11.13
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.13
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.13
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.13
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.13
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.13
+	   |-- c2me-notickvd 0.2.0+alpha.11.13
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.13
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.13
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.13
+	   |-- c2me-opts-math 0.2.0+alpha.11.13
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.13
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.13
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.13
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.13
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.13
+	   |-- c2me-server-utils 0.2.0+alpha.11.13
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.13
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.13
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.13
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- collective 7.84
+	- diagonalfences 8.1.4
+	   \-- diagonalblocks 8.0.5
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.12.3+kotlin.2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.3
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.0
+	- ironchest 2.0.2
+	   \-- libgui 8.1.1+1.20.1
+	        |-- jankson 6.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
+	- java 17
+	- jei 15.19.5.99
+	- libraryferret 4.0.0
+	- lithium 0.11.2
+	- minecraft 1.20.1
+	- mr_veinminer 1.1.0
+	- noisium 2.3.0+mc1.20-1.20.1
+	- puzzleslib 8.1.23
+	   \-- puzzlesaccessapi 8.0.7
+	- sophisticatedbackpacks 1.20.1-3.20.11.26
+	   |-- porting_lib_extensions 2.3.2+1.20.1
+	   |    |-- porting_lib_accessors 2.3.2+1.20.1
+	   |    |-- porting_lib_attributes 2.3.2+1.20.1
+	   |    |-- porting_lib_common 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_loot 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- porting_lib_lazy_registration 2.3.2+1.20.1
+	   |-- porting_lib_model_loader 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_networking 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_tool_actions 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_transfer 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   \-- team_reborn_energy 3.0.0
+	- sophisticatedcore 1.20.1-0.6.35.49
+	   |-- porting_lib_extensions 2.3.2+1.20.1
+	   |    |-- porting_lib_accessors 2.3.2+1.20.1
+	   |    |-- porting_lib_attributes 2.3.2+1.20.1
+	   |    |-- porting_lib_common 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_fluids 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_networking 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_transfer 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   \-- team_reborn_energy 3.0.0
+	- treeharvester 9.1
+	- visualworkbench 8.0.0
+	- waystones 14.1.6
+	- xaerominimap 24.4.0
+	- xaeroworldmap 1.39.0
+	- yigd 2.0.10
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- libgui 8.1.1+1.20.1
+	        |-- jankson 6.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
+[05:33:48] [main/WARN]: Found 1 non-fabric mod:
+	- ironchest-1.20.1-14.4.4.jar
+[05:33:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MSX-Server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[05:33:48] [main/INFO]: Compatibility level set to JAVA_17
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[05:33:48] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[05:33:48] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[05:33:48] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[05:33:48] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[05:33:48] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[05:33:49] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[05:33:49] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[05:33:49] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[05:33:49] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
+[05:33:49] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
+[05:33:49] [main/WARN]: Error loading class: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket (java.lang.ClassNotFoundException: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket)
+[05:33:49] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[05:33:56] [main/INFO]: Loading Collective version 7.84.
+[05:33:56] [main/INFO]: Constructing common components for diagonalblocks:main
+[05:33:56] [main/INFO]: Constructing common components for diagonalfences:main
+[05:33:56] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 54ms
+[05:33:56] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 89ms
+[05:33:56] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 93ms
+[05:33:56] [main/INFO]: Constructing common components for easyanvils:main
+[05:33:56] [main/INFO]: Constructing common components for easymagic:main
+[05:33:57] [main/INFO]: Initialize mod Library Ferret
+[05:33:57] [main/INFO]: Initialized mod Library Ferret
+[05:33:57] [main/INFO]: Loading Noisium.
+[05:33:57] [main/INFO]: Constructing common components for puzzleslib:main
+[05:33:57] [main/ERROR]: No data fixer registered for 
+[05:33:57] [main/INFO]: Constructing common components for visualworkbench:main
+[05:33:57] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[05:33:57] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[05:33:57] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:33:58] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[05:33:59] [main/INFO]: Loaded 8 recipes
+[05:33:59] [main/INFO]: Loaded 1334 advancements
+[05:33:59] [main/INFO]: Reloading grave shape (server)
+[05:33:59] [main/INFO]: Grave model and shape reload successful (server)
+[05:33:59] [main/INFO]: Reloading YIGD graveyard data (server)
+[05:33:59] [main/INFO]: Graveyard data successfully reloaded (server)
+[05:33:59] [main/INFO]: Reloading YIGD grave area overrides (server)
+[05:33:59] [main/INFO]: Grave area overrides successfully reloaded (server)
+[05:34:01] [main/INFO]: Applied 64 biome modifications to 64 of 64 new biomes in 11.10 ms
+[05:34:01] [Server thread/INFO]: Loading server config for easyanvils
+[05:34:01] [Thread-2/INFO]: Reloading server config for easyanvils
+[05:34:01] [Server thread/INFO]: Loading server config for easymagic
+[05:34:01] [Thread-2/INFO]: Reloading server config for easyanvils
+[05:34:01] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[05:34:01] [Server thread/INFO]: Loading properties
+[05:34:01] [Server thread/INFO]: Default game type: SURVIVAL
+[05:34:01] [Server thread/INFO]: Generating keypair
+[05:34:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:34:01] [Server thread/INFO]: Using epoll channel type
+[05:34:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:34:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:34:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:34:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:34:01] [Server thread/INFO]: Preparing level "world"
+[05:34:01] [Server thread/INFO]: Enforcing safe world random access
+[05:34:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:34:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:34:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:34:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:34:05] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:34:06] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[05:34:06] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[05:34:07] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[05:34:07] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[05:34:08] [Worker-Main-1/INFO]: Preparing spawn area: 7%
+[05:34:08] [Worker-Main-3/INFO]: Preparing spawn area: 17%
+[05:34:09] [Worker-Main-3/INFO]: Preparing spawn area: 29%
+[05:34:09] [Worker-Main-1/INFO]: Preparing spawn area: 39%
+[05:34:10] [Worker-Main-2/INFO]: Preparing spawn area: 85%
+[05:34:10] [Server thread/INFO]: Time elapsed: 6139 ms
+[05:34:10] [Server thread/INFO]: Done (8.933s)! For help, type "help"
+[05:34:10] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[05:34:10] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:wda_root' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
+[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_bathhouse' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
+[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_bandit_towers' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
+[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_abandoned_temple' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
+[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_small_blimp' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
+[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_mechanical_nest' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
+[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_lighthouse' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
+[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_illager_corsair_or_illager_galley' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
+[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_typhon' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
+[05:34:19] [Server thread/INFO]: ffgg61[/127.72.184.2:38267] logged in with entity id 27 at (924.1047726886646, 68.0, 1313.427044782972)
+[05:34:19] [Server thread/INFO]: ffgg61 joined the game
+[05:34:21] [Netty Epoll Server IO #5/INFO]: Priority overwritten for player ffgg61. Claiming: GRAVE / Robbing: INVENTORY
+[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:wda_root' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
+[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_bathhouse' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
+[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_abandoned_temple' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
+[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_merchant_campsite' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
+[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_wishing_well' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
+[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_bandit_village' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
+[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_mechanical_nest' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
+[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_lighthouse' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
+[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_illager_corsair_or_illager_galley' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
+[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_typhon' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
+[05:34:31] [Server thread/INFO]: Rodriexze[/127.172.49.209:55955] logged in with entity id 584 at (750.9250000119209, 69.0, 1264.18906057069)
+[05:34:31] [Server thread/INFO]: Rodriexze joined the game
+[05:34:32] [Netty Epoll Server IO #6/INFO]: Priority overwritten for player Rodriexze. Claiming: GRAVE / Robbing: INVENTORY
+[05:36:35] [Server thread/INFO]: Rodriexze lost connection: Disconnected
+[05:36:35] [Server thread/INFO]: Rodriexze left the game
+[05:36:41] [Server thread/INFO]: Rodriexze[/127.172.49.209:53987] logged in with entity id 1404 at (762.7129867943215, 63.0, 1275.1638943904286)
+[05:36:41] [Server thread/INFO]: Rodriexze joined the game
+[05:36:42] [Netty Epoll Server IO #1/INFO]: Priority overwritten for player Rodriexze. Claiming: GRAVE / Robbing: INVENTORY
+[05:40:42] [Server thread/INFO]: ffgg61 has made the advancement [The End?]
+[05:40:43] [Server thread/INFO]: Rodriexze has made the advancement [The End?]
+[05:40:43] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[05:40:43] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[05:40:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2761ms or 55 ticks behind
+[05:40:50] [Server thread/WARN]: Rodriexze moved too quickly! 207.1124497304988,10.265900001525878,-1615.048819022106
