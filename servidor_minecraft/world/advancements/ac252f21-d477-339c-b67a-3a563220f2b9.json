@@ -419,6 +419,7 @@
       "cooked_porkchop": "2024-11-05 05:18:49 +0000",
       "cooked_mutton": "2024-11-05 05:31:49 +0000",
       "cooked_beef": "2024-11-05 22:07:13 +0000",
+      "chorus_fruit": "2024-12-04 06:04:37 +0000",
       "baked_potato": "2024-11-08 06:37:43 +0000",
       "apple": "2024-11-05 05:19:00 +0000",
       "cooked_cod": "2024-11-06 05:21:12 +0000",
@@ -4976,9 +4977,15 @@
     },
     "done": true
   },
-  "minecraft:end/dragon_egg": {
+  "minecraft:end/root": {
     "criteria": {
-      "dragon_egg": "2024-12-04 05:55:40 +0000"
+      "entered_end": "2024-12-04 05:40:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-12-04 05:40:43 +0000"
     },
     "done": true
   },
@@ -5000,12 +5007,6 @@
     },
     "done": true
   },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2024-12-04 05:40:43 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-12-04 05:42:52 +0000"
@@ -5018,9 +5019,21 @@
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "minecraft:end/dragon_egg": {
     "criteria": {
-      "entered_end": "2024-12-04 05:40:43 +0000"
+      "dragon_egg": "2024-12-04 05:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-12-04 06:04:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-12-04 06:04:08 +0000"
     },
     "done": true
   },

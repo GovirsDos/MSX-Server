@@ -1,5 +1,5 @@
-[05:57:08] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[05:57:08] [main/INFO]: Loading 131 mods:
+[05:58:34] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[05:58:34] [main/INFO]: Loading 131 mods:
 	- appleskin 2.5.1+mc1.20
 	   \-- cloth-config 11.0.99
 	        \-- cloth-basic-math 0.6.1
@@ -166,66 +166,267 @@
 	        |-- jankson 6.0.0+j1.2.3
 	        |    \-- blue_endless_jankson 1.2.3
 	        \-- libninepatch 1.2.0
-[05:57:08] [main/WARN]: Found 1 non-fabric mod:
+[05:58:34] [main/WARN]: Found 1 non-fabric mod:
 	- ironchest-1.20.1-14.4.4.jar
-[05:57:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MSX-Server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:57:08] [main/INFO]: Compatibility level set to JAVA_17
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:57:09] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[05:57:09] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[05:57:09] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[05:57:09] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[05:57:09] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
-[05:57:09] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[05:57:09] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[05:57:09] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[05:57:09] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
-[05:57:09] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
-[05:57:09] [main/WARN]: Error loading class: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket (java.lang.ClassNotFoundException: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket)
-[05:57:10] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[05:57:16] [main/INFO]: Loading Collective version 7.84.
-[05:57:16] [main/INFO]: Constructing common components for diagonalblocks:main
-[05:57:16] [main/INFO]: Constructing common components for diagonalfences:main
-[05:57:16] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 28ms
-[05:57:16] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 35ms
-[05:57:16] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 70ms
-[05:57:16] [main/INFO]: Constructing common components for easyanvils:main
-[05:57:17] [main/INFO]: Constructing common components for easymagic:main
-[05:57:17] [main/INFO]: Initialize mod Library Ferret
-[05:57:17] [main/INFO]: Initialized mod Library Ferret
-[05:57:17] [main/INFO]: Loading Noisium.
-[05:57:17] [main/INFO]: Constructing common components for puzzleslib:main
-[05:57:17] [main/ERROR]: No data fixer registered for 
-[05:57:17] [main/INFO]: Constructing common components for visualworkbench:main
-[05:57:17] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[05:57:17] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[05:57:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05:57:17] [main/ERROR]: Failed to start the minecraft server
-net.minecraft.class_5125$class_5126: /workspaces/MSX-Server/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at net.minecraft.class_5125$class_5126.method_26805(class_5125.java:95) ~[server-intermediary.jar:?]
-	at net.minecraft.class_5125.method_26803(class_5125.java:41) ~[server-intermediary.jar:?]
-	at net.minecraft.class_32$class_5143.<init>(class_32.java:398) ~[server-intermediary.jar:?]
-	at net.minecraft.class_32.method_52236(class_32.java:377) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:136) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[05:58:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MSX-Server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[05:58:34] [main/INFO]: Compatibility level set to JAVA_17
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[05:58:35] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[05:58:35] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[05:58:35] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[05:58:35] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[05:58:35] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[05:58:35] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[05:58:35] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[05:58:35] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[05:58:35] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
+[05:58:36] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
+[05:58:36] [main/WARN]: Error loading class: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket (java.lang.ClassNotFoundException: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket)
+[05:58:36] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[05:58:42] [main/INFO]: Loading Collective version 7.84.
+[05:58:42] [main/INFO]: Constructing common components for diagonalblocks:main
+[05:58:42] [main/INFO]: Constructing common components for diagonalfences:main
+[05:58:42] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 43ms
+[05:58:42] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 28ms
+[05:58:42] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 69ms
+[05:58:42] [main/INFO]: Constructing common components for easyanvils:main
+[05:58:43] [main/INFO]: Constructing common components for easymagic:main
+[05:58:43] [main/INFO]: Initialize mod Library Ferret
+[05:58:43] [main/INFO]: Initialized mod Library Ferret
+[05:58:43] [main/INFO]: Loading Noisium.
+[05:58:43] [main/INFO]: Constructing common components for puzzleslib:main
+[05:58:43] [main/ERROR]: No data fixer registered for 
+[05:58:43] [main/INFO]: Constructing common components for visualworkbench:main
+[05:58:43] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[05:58:43] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[05:58:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:58:44] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[05:58:45] [main/INFO]: Loaded 8 recipes
+[05:58:45] [main/INFO]: Loaded 1334 advancements
+[05:58:45] [main/INFO]: Reloading grave shape (server)
+[05:58:45] [main/INFO]: Grave model and shape reload successful (server)
+[05:58:45] [main/INFO]: Reloading YIGD graveyard data (server)
+[05:58:45] [main/INFO]: Graveyard data successfully reloaded (server)
+[05:58:45] [main/INFO]: Reloading YIGD grave area overrides (server)
+[05:58:45] [main/INFO]: Grave area overrides successfully reloaded (server)
+[05:58:47] [main/INFO]: Applied 64 biome modifications to 64 of 64 new biomes in 11.14 ms
+[05:58:47] [Server thread/INFO]: Loading server config for easyanvils
+[05:58:47] [Thread-2/INFO]: Reloading server config for easyanvils
+[05:58:47] [Thread-2/INFO]: Reloading server config for easyanvils
+[05:58:47] [Server thread/INFO]: Loading server config for easymagic
+[05:58:47] [Thread-2/INFO]: Reloading server config for easymagic
+[05:58:47] [Thread-2/INFO]: Reloading server config for easymagic
+[05:58:47] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[05:58:47] [Server thread/INFO]: Loading properties
+[05:58:47] [Server thread/INFO]: Default game type: SURVIVAL
+[05:58:47] [Server thread/INFO]: Generating keypair
+[05:58:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:58:47] [Server thread/INFO]: Using epoll channel type
+[05:58:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:58:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:58:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:58:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:58:47] [Server thread/INFO]: Preparing level "world"
+[05:58:47] [Server thread/INFO]: Enforcing safe world random access
+[05:58:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:58:50] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:58:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:58:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:58:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:58:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:58:53] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[05:58:53] [Worker-Main-3/INFO]: Preparing spawn area: 1%
+[05:58:53] [Worker-Main-2/INFO]: Preparing spawn area: 3%
+[05:58:54] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[05:58:54] [Worker-Main-1/INFO]: Preparing spawn area: 12%
+[05:58:55] [Worker-Main-3/INFO]: Preparing spawn area: 56%
+[05:58:55] [Server thread/INFO]: Time elapsed: 5499 ms
+[05:58:55] [Server thread/INFO]: Done (8.356s)! For help, type "help"
+[05:58:56] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[05:58:56] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[05:58:56] [Server thread/INFO]: ffgg61[/127.72.184.2:47981] logged in with entity id 32 at (-5.699999988079071, 57.0, 24.443432199922103)
+[05:58:56] [Server thread/INFO]: ffgg61 joined the game
+[05:58:57] [Netty Epoll Server IO #1/INFO]: Priority overwritten for player ffgg61. Claiming: GRAVE / Robbing: INVENTORY
+[05:58:59] [Server thread/INFO]: Rodriexze[/127.172.49.209:33327] logged in with entity id 115 at (-3.300000011920929, 56.0, 24.02366512859241)
+[05:58:59] [Server thread/INFO]: Rodriexze joined the game
+[05:59:00] [Netty Epoll Server IO #3/INFO]: Priority overwritten for player Rodriexze. Claiming: GRAVE / Robbing: INVENTORY
+[05:59:22] [Server thread/INFO]: Rodriexze lost connection: You logged in from another location
+[05:59:22] [Server thread/INFO]: Rodriexze left the game
+[05:59:23] [Server thread/INFO]: Rodriexze[/127.172.49.209:48793] logged in with entity id 126 at (-0.25756275197563483, 61.76636799395752, -1.0697589924704127)
+[05:59:23] [Server thread/INFO]: Rodriexze joined the game
+[05:59:24] [Netty Epoll Server IO #4/INFO]: Priority overwritten for player Rodriexze. Claiming: GRAVE / Robbing: INVENTORY
+[05:59:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2085ms or 41 ticks behind
+[05:59:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[06:04:08] [Server thread/INFO]: Rodriexze has made the advancement [Remote Getaway]
+[06:04:08] [Server thread/INFO]: ffgg61 has made the advancement [Remote Getaway]
+[06:06:12] [Server thread/WARN]: Rodriexze moved too quickly! 6.649014708725019,-23.0,-5.406274762121257
+[06:14:23] [Server thread/INFO]: ffgg61 fell out of the world
+[06:15:33] [Server thread/INFO]: Made ffgg61 a server operator
+[06:15:39] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -189.500000, -320.500000, 2229.500000]
+[06:15:40] [Server thread/INFO]: ffgg61 fell out of the world
+[06:15:40] [Server thread/INFO]: Did not backup data (grave data empty)
+[06:15:41] [Server thread/WARN]: ffgg61 moved too quickly! 0.0,-10.551694964367925,0.0
+[06:15:46] [Server thread/INFO]: Made Rodriexze a server operator
+[06:15:48] [Server thread/INFO]: ffgg61 fell from a high place
+[06:15:48] [Server thread/INFO]: Did not backup data (grave data empty)
+[06:15:54] [Server thread/INFO]: ffgg61 fell from a high place
+[06:15:54] [Server thread/INFO]: Did not backup data (grave data empty)
+[06:16:27] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -231.500000, 65.500000, 2191.500000]
+[06:16:41] [Server thread/INFO]: [ffgg61: Set own game mode to Creative Mode]
+[06:16:54] [Server thread/INFO]: ffgg61 claimed a grave belonging to ffgg61 at -190, 3, 2229, minecraft:the_end
+[06:17:07] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -71.500000, 46.500000, 1035.500000]
+[06:17:16] [Server thread/INFO]: [ffgg61: Set own game mode to Survival Mode]
+[06:17:25] [Server thread/INFO]: [Not Secure] <ffgg61> xaero-waypoint:Shared Location:S:-212:53:2216:11:false:0:Internal-the-end-waypoints
+[06:17:36] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -242.500000, 65.500000, 2061.500000]
+[06:17:42] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -202.500000, 53.500000, 2215.500000]
+[06:19:27] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -135.500000, 57.500000, 2570.500000]
+[06:19:28] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -117.500000, 58.500000, 2549.500000]
+[06:19:32] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -341.500000, 60.500000, 2609.500000]
+[06:19:36] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -532.500000, 60.500000, 2471.500000]
+[06:19:37] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -111.500000, 58.500000, 2796.500000]
+[06:19:43] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -725.500000, 38.500000, 2318.500000]
+[06:19:45] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -97.500000, 63.500000, 3047.500000]
+[06:19:51] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -160.500000, 58.500000, 3291.500000]
+[06:19:52] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -966.500000, 60.500000, 2264.500000]
+[06:19:58] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -1192.500000, 56.500000, 2308.500000]
+[06:19:58] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -363.500000, 58.500000, 3157.500000]
+[06:20:03] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -1201.500000, 61.500000, 2458.500000]
+[06:20:07] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -238.500000, 60.500000, 3531.500000]
+[06:20:11] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -1231.500000, 60.500000, 2581.500000]
+[06:20:12] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -340.500000, 57.500000, 3750.500000]
+[06:20:16] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -1295.500000, 60.500000, 2780.500000]
+[06:20:23] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -589.500000, 62.500000, 3676.500000]
+[06:20:24] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -1371.500000, 57.500000, 3012.500000]
+[06:20:29] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -761.500000, 57.500000, 3841.500000]
+[06:20:30] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -1478.500000, 55.500000, 3241.500000]
+[06:20:37] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -1280.500000, 57.500000, 3388.500000]
+[06:20:37] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -953.500000, 64.500000, 4009.500000]
+[06:20:43] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -1115.500000, 59.500000, 4184.500000]
+[06:20:44] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -1078.500000, 61.500000, 3496.500000]
+[06:20:49] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -1099.500000, 57.500000, 4426.500000]
+[06:20:55] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -1091.500000, 62.500000, 4664.500000]
+[06:21:14] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -867.500000, 71.500000, 4686.500000]
+[06:21:18] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -630.500000, 60.500000, 4708.500000]
+[06:21:23] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -394.500000, 64.500000, 4676.500000]
+[06:21:27] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -175.500000, 60.500000, 4615.500000]
+[06:21:33] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to -87.500000, 58.500000, 4382.500000]
+[06:21:35] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -950.500000, 58.500000, 3645.500000]
+[06:21:39] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -994.500000, 53.500000, 3843.500000]
+[06:21:41] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 155.500000, 63.500000, 4295.500000]
+[06:21:44] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -767.500000, 57.500000, 3862.500000]
+[06:21:50] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -529.500000, 61.500000, 3901.500000]
+[06:21:54] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 394.500000, 59.500000, 4327.500000]
+[06:22:00] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 572.500000, 58.500000, 4251.500000]
+[06:22:06] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 806.500000, 58.500000, 4169.500000]
+[06:22:12] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 995.500000, 59.500000, 4318.500000]
+[06:22:17] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 1185.500000, 60.500000, 4472.500000]
+[06:22:18] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -323.500000, 58.500000, 3948.500000]
+[06:22:25] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -274.500000, 61.500000, 4170.500000]
+[06:22:27] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 1191.500000, 60.500000, 4708.500000]
+[06:22:31] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -166.500000, 55.500000, 4372.500000]
+[06:22:31] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 1260.500000, 59.500000, 4948.500000]
+[06:22:37] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -200.500000, 71.500000, 4621.500000]
+[06:22:41] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -129.500000, 58.500000, 4827.500000]
+[06:22:45] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -88.500000, 60.500000, 5069.500000]
+[06:22:50] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to -25.500000, 58.500000, 5304.500000]
+[06:22:56] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 109.500000, 65.500000, 5506.500000]
+[06:23:07] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 291.500000, 57.500000, 5672.500000]
+[06:23:44] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 40.500000, 60.500000, -43.500000]
+[06:24:01] [Server thread/INFO]: Rodriexze lost connection: You logged in from another location
+[06:24:01] [Server thread/INFO]: Rodriexze left the game
+[06:24:01] [Server thread/INFO]: Rodriexze[/127.172.49.209:45401] logged in with entity id 12379 at (339.3697050577371, 60.0, 5673.407286882779)
+[06:24:01] [Server thread/INFO]: Rodriexze joined the game
+[06:24:02] [Netty Epoll Server IO #5/INFO]: Priority overwritten for player Rodriexze. Claiming: GRAVE / Robbing: INVENTORY
+[06:24:05] [Server thread/INFO]: [Not Secure] <ffgg61> xaero-waypoint:Shared Location:S:1668:~:184:0:false:0:Internal-the-end-waypoints
+[06:24:12] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 108.500000, 57.500000, 1068.500000]
+[06:24:26] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 10.500000, 63.500000, -9.500000]
+[06:24:32] [Server thread/INFO]: [ffgg61: Set own game mode to Creative Mode]
+[06:24:46] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 360.500000, 58.500000, 1012.500000]
+[06:25:07] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 527.500000, 63.500000, 927.500000]
+[06:25:16] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 619.500000, 60.500000, 808.500000]
+[06:25:20] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 810.500000, 67.500000, 692.500000]
+[06:25:21] [Server thread/INFO]: ffgg61 fell out of the world
+[06:25:27] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 854.500000, 38.500000, 506.500000]
+[06:25:33] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 1009.500000, 61.500000, 326.500000]
+[06:25:48] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 1059.500000, 60.500000, 104.500000]
+[06:25:58] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 1265.500000, 62.500000, 204.500000]
+[06:26:03] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 1504.500000, 62.500000, 247.500000]
+[06:26:05] [Server thread/INFO]: ffgg61 claimed a grave belonging to ffgg61 at 438, 3, -177, minecraft:the_end
+[06:26:13] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 1681.500000, 53.500000, 197.500000]
+[06:26:20] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 1878.500000, 60.500000, 231.500000]
+[06:26:24] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 226.500000, 61.500000, 1082.500000]
+[06:26:43] [Server thread/INFO]: [Rodriexze: Teleported ffgg61 to Rodriexze]
+[06:27:09] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 1324.500000, 61.500000, -41.500000]
+[06:27:15] [Server thread/INFO]: [ffgg61: Set own game mode to Survival Mode]
+[06:27:18] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 1034.500000, 56.500000, -91.500000]
+[06:27:23] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 1018.500000, 59.500000, -232.500000]
+[06:27:26] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 972.500000, 66.500000, -442.500000]
+[06:27:32] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 911.500000, 71.500000, -600.500000]
+[06:27:38] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 753.500000, 58.500000, -774.500000]
+[06:27:41] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 2080.500000, 61.500000, 338.500000]
+[06:28:03] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 718.500000, 57.500000, -1004.500000]
+[06:28:07] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 2279.500000, 61.500000, 480.500000]
+[06:28:08] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 544.500000, 61.500000, -1183.500000]
+[06:28:13] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 347.500000, 58.500000, -1057.500000]
+[06:28:20] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 266.500000, 59.500000, -1308.500000]
+[06:28:59] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 2310.500000, 61.500000, 603.500000]
+[06:29:04] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to ffgg61]
+[06:29:17] [Server thread/INFO]: ffgg61 has made the advancement [The City at the End of the Game]
+[06:36:17] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 2286.500000, 53.500000, 968.500000]
+[06:36:22] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 2220.500000, 60.500000, 1208.500000]
+[06:36:26] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 2137.500000, 64.500000, 1449.500000]
+[06:36:30] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 2121.500000, 63.500000, 1684.500000]
+[06:36:36] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 2025.500000, 59.500000, 1897.500000]
+[06:36:45] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 1932.500000, 57.500000, 2118.500000]
+[06:36:56] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 1876.500000, 63.500000, 2362.500000]
+[06:37:00] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 1691.500000, 59.500000, 2527.500000]
+[06:37:23] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to ffgg61]
+[06:37:53] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 1690.500000, 69.500000, 2620.500000]
+[06:38:49] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 1693.500000, 73.500000, 2622.500000]
+[06:39:11] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 1694.500000, 137.500000, 2619.500000]
+[06:39:15] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 1695.500000, 165.500000, 2639.500000]
+[06:40:00] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 1694.500000, 117.500000, 2557.500000]
+[06:40:36] [Server thread/INFO]: ffgg61 has reached the goal [Sky's the Limit]
+[06:43:13] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 759.500000, 63.500000, 1267.500000]
+[06:47:03] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 799.500000, 198.500000, 1257.500000]
+[06:47:38] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 800.500000, 198.500000, 1258.500000]
+[06:48:13] [Server thread/INFO]: [Rodriexze: Teleported Rodriexze to 800.500000, 199.500000, 1257.500000]
+[06:48:28] [Server thread/INFO]: ffgg61 fell from a high place
+[06:48:35] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 777.500000, 63.500000, 1258.500000]
+[06:48:36] [Server thread/INFO]: ffgg61 claimed a grave belonging to ffgg61 at 778, 64, 1258, minecraft:overworld
+[06:48:43] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 801.500000, 198.500000, 1257.500000]
+[06:49:01] [Server thread/INFO]: ffgg61 fell from a high place
+[06:49:09] [Server thread/INFO]: [ffgg61: Teleported ffgg61 to 780.500000, 63.500000, 1259.500000]
+[06:49:10] [Server thread/INFO]: ffgg61 claimed a grave belonging to ffgg61 at 780, 64, 1258, minecraft:overworld
+[06:52:39] [Server thread/INFO]: ffgg61 lost connection: Disconnected
+[06:52:39] [Server thread/INFO]: ffgg61 left the game
+[06:52:44] [Server thread/INFO]: Rodriexze lost connection: Disconnected
+[06:52:44] [Server thread/INFO]: Rodriexze left the game
+[06:52:57] [Server thread/INFO]: Stopping the server
+[06:52:57] [Server thread/INFO]: Stopping server
+[06:52:57] [Server thread/INFO]: Saving players
+[06:52:57] [Server thread/INFO]: Saving worlds
+[06:52:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:52:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:52:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:52:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:52:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:52:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:52:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
