@@ -77,6 +77,7 @@
       "minecraft:witch": "2024-11-12 13:01:56 +0000",
       "minecraft:wither_skeleton": "2024-11-13 08:26:54 +0000",
       "minecraft:husk": "2024-11-13 06:09:58 +0000",
+      "minecraft:ender_dragon": "2024-12-04 05:54:25 +0000",
       "minecraft:cave_spider": "2024-11-06 06:06:52 +0000",
       "minecraft:piglin": "2024-11-13 03:38:40 +0000",
       "minecraft:enderman": "2024-11-08 06:26:09 +0000",
@@ -4802,9 +4803,45 @@
     },
     "done": true
   },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2024-12-04 05:54:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-04 05:55:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-12-04 05:55:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-04 05:55:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:end/root": {
     "criteria": {
       "entered_end": "2024-12-04 05:40:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-04 05:55:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-04 05:55:32 +0000"
     },
     "done": true
   },

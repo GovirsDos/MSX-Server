@@ -1,5 +1,5 @@
-[05:33:47] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[05:33:48] [main/INFO]: Loading 131 mods:
+[05:57:08] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[05:57:08] [main/INFO]: Loading 131 mods:
 	- appleskin 2.5.1+mc1.20
 	   \-- cloth-config 11.0.99
 	        \-- cloth-basic-math 0.6.1
@@ -166,135 +166,66 @@
 	        |-- jankson 6.0.0+j1.2.3
 	        |    \-- blue_endless_jankson 1.2.3
 	        \-- libninepatch 1.2.0
-[05:33:48] [main/WARN]: Found 1 non-fabric mod:
+[05:57:08] [main/WARN]: Found 1 non-fabric mod:
 	- ironchest-1.20.1-14.4.4.jar
-[05:33:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MSX-Server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:33:48] [main/INFO]: Compatibility level set to JAVA_17
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:33:48] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[05:33:48] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[05:33:48] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[05:33:48] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[05:33:48] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
-[05:33:49] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[05:33:49] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[05:33:49] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[05:33:49] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
-[05:33:49] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
-[05:33:49] [main/WARN]: Error loading class: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket (java.lang.ClassNotFoundException: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket)
-[05:33:49] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[05:33:56] [main/INFO]: Loading Collective version 7.84.
-[05:33:56] [main/INFO]: Constructing common components for diagonalblocks:main
-[05:33:56] [main/INFO]: Constructing common components for diagonalfences:main
-[05:33:56] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 54ms
-[05:33:56] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 89ms
-[05:33:56] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 93ms
-[05:33:56] [main/INFO]: Constructing common components for easyanvils:main
-[05:33:56] [main/INFO]: Constructing common components for easymagic:main
-[05:33:57] [main/INFO]: Initialize mod Library Ferret
-[05:33:57] [main/INFO]: Initialized mod Library Ferret
-[05:33:57] [main/INFO]: Loading Noisium.
-[05:33:57] [main/INFO]: Constructing common components for puzzleslib:main
-[05:33:57] [main/ERROR]: No data fixer registered for 
-[05:33:57] [main/INFO]: Constructing common components for visualworkbench:main
-[05:33:57] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[05:33:57] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[05:33:57] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05:33:58] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[05:33:59] [main/INFO]: Loaded 8 recipes
-[05:33:59] [main/INFO]: Loaded 1334 advancements
-[05:33:59] [main/INFO]: Reloading grave shape (server)
-[05:33:59] [main/INFO]: Grave model and shape reload successful (server)
-[05:33:59] [main/INFO]: Reloading YIGD graveyard data (server)
-[05:33:59] [main/INFO]: Graveyard data successfully reloaded (server)
-[05:33:59] [main/INFO]: Reloading YIGD grave area overrides (server)
-[05:33:59] [main/INFO]: Grave area overrides successfully reloaded (server)
-[05:34:01] [main/INFO]: Applied 64 biome modifications to 64 of 64 new biomes in 11.10 ms
-[05:34:01] [Server thread/INFO]: Loading server config for easyanvils
-[05:34:01] [Thread-2/INFO]: Reloading server config for easyanvils
-[05:34:01] [Server thread/INFO]: Loading server config for easymagic
-[05:34:01] [Thread-2/INFO]: Reloading server config for easyanvils
-[05:34:01] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[05:34:01] [Server thread/INFO]: Loading properties
-[05:34:01] [Server thread/INFO]: Default game type: SURVIVAL
-[05:34:01] [Server thread/INFO]: Generating keypair
-[05:34:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:34:01] [Server thread/INFO]: Using epoll channel type
-[05:34:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:34:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:34:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:34:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:34:01] [Server thread/INFO]: Preparing level "world"
-[05:34:01] [Server thread/INFO]: Enforcing safe world random access
-[05:34:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:34:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:34:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:34:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[05:34:05] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:34:06] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[05:34:06] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[05:34:07] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[05:34:07] [Worker-Main-1/INFO]: Preparing spawn area: 3%
-[05:34:08] [Worker-Main-1/INFO]: Preparing spawn area: 7%
-[05:34:08] [Worker-Main-3/INFO]: Preparing spawn area: 17%
-[05:34:09] [Worker-Main-3/INFO]: Preparing spawn area: 29%
-[05:34:09] [Worker-Main-1/INFO]: Preparing spawn area: 39%
-[05:34:10] [Worker-Main-2/INFO]: Preparing spawn area: 85%
-[05:34:10] [Server thread/INFO]: Time elapsed: 6139 ms
-[05:34:10] [Server thread/INFO]: Done (8.933s)! For help, type "help"
-[05:34:10] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[05:34:10] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:wda_root' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
-[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_bathhouse' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
-[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_bandit_towers' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
-[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_abandoned_temple' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
-[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_small_blimp' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
-[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_mechanical_nest' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
-[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_lighthouse' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
-[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_illager_corsair_or_illager_galley' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
-[05:34:19] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_typhon' in progress file ./world/advancements/9bfac5b1-8e66-3dff-b0a4-605bf811542d.json - it doesn't exist anymore?
-[05:34:19] [Server thread/INFO]: ffgg61[/127.72.184.2:38267] logged in with entity id 27 at (924.1047726886646, 68.0, 1313.427044782972)
-[05:34:19] [Server thread/INFO]: ffgg61 joined the game
-[05:34:21] [Netty Epoll Server IO #5/INFO]: Priority overwritten for player ffgg61. Claiming: GRAVE / Robbing: INVENTORY
-[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:wda_root' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
-[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_bathhouse' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
-[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_abandoned_temple' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
-[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_merchant_campsite' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
-[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_wishing_well' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
-[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_bandit_village' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
-[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_mechanical_nest' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
-[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_lighthouse' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
-[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_illager_corsair_or_illager_galley' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
-[05:34:31] [Server thread/WARN]: Ignored advancement 'dungeons_arise:find_typhon' in progress file ./world/advancements/ac252f21-d477-339c-b67a-3a563220f2b9.json - it doesn't exist anymore?
-[05:34:31] [Server thread/INFO]: Rodriexze[/127.172.49.209:55955] logged in with entity id 584 at (750.9250000119209, 69.0, 1264.18906057069)
-[05:34:31] [Server thread/INFO]: Rodriexze joined the game
-[05:34:32] [Netty Epoll Server IO #6/INFO]: Priority overwritten for player Rodriexze. Claiming: GRAVE / Robbing: INVENTORY
-[05:36:35] [Server thread/INFO]: Rodriexze lost connection: Disconnected
-[05:36:35] [Server thread/INFO]: Rodriexze left the game
-[05:36:41] [Server thread/INFO]: Rodriexze[/127.172.49.209:53987] logged in with entity id 1404 at (762.7129867943215, 63.0, 1275.1638943904286)
-[05:36:41] [Server thread/INFO]: Rodriexze joined the game
-[05:36:42] [Netty Epoll Server IO #1/INFO]: Priority overwritten for player Rodriexze. Claiming: GRAVE / Robbing: INVENTORY
-[05:40:42] [Server thread/INFO]: ffgg61 has made the advancement [The End?]
-[05:40:43] [Server thread/INFO]: Rodriexze has made the advancement [The End?]
-[05:40:43] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[05:40:43] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
-[05:40:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2761ms or 55 ticks behind
-[05:40:50] [Server thread/WARN]: Rodriexze moved too quickly! 207.1124497304988,10.265900001525878,-1615.048819022106
-[05:54:25] [Server thread/INFO]: ffgg61 has made the advancement [Free the End]
+[05:57:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MSX-Server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[05:57:08] [main/INFO]: Compatibility level set to JAVA_17
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[05:57:09] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[05:57:09] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[05:57:09] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[05:57:09] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[05:57:09] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[05:57:09] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[05:57:09] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[05:57:09] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[05:57:09] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me]) disables it and children
+[05:57:09] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
+[05:57:09] [main/WARN]: Error loading class: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket (java.lang.ClassNotFoundException: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket)
+[05:57:10] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[05:57:16] [main/INFO]: Loading Collective version 7.84.
+[05:57:16] [main/INFO]: Constructing common components for diagonalblocks:main
+[05:57:16] [main/INFO]: Constructing common components for diagonalfences:main
+[05:57:16] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 28ms
+[05:57:16] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 35ms
+[05:57:16] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 70ms
+[05:57:16] [main/INFO]: Constructing common components for easyanvils:main
+[05:57:17] [main/INFO]: Constructing common components for easymagic:main
+[05:57:17] [main/INFO]: Initialize mod Library Ferret
+[05:57:17] [main/INFO]: Initialized mod Library Ferret
+[05:57:17] [main/INFO]: Loading Noisium.
+[05:57:17] [main/INFO]: Constructing common components for puzzleslib:main
+[05:57:17] [main/ERROR]: No data fixer registered for 
+[05:57:17] [main/INFO]: Constructing common components for visualworkbench:main
+[05:57:17] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[05:57:17] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[05:57:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:57:17] [main/ERROR]: Failed to start the minecraft server
+net.minecraft.class_5125$class_5126: /workspaces/MSX-Server/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.class_5125$class_5126.method_26805(class_5125.java:95) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5125.method_26803(class_5125.java:41) ~[server-intermediary.jar:?]
+	at net.minecraft.class_32$class_5143.<init>(class_32.java:398) ~[server-intermediary.jar:?]
+	at net.minecraft.class_32.method_52236(class_32.java:377) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:136) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
